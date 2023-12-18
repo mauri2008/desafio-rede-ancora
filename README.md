@@ -1,30 +1,41 @@
-# React + TypeScript + Vite
+# Desafio Rede Ancora 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Esta aplicação tem como finalidade apresentar as novidades e seu artitas favoritos da plataforma spotify.
 
-Currently, two official plugins are available:
+# Rodando Localmente
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Siga estas instruções para configurar e executar o projeto em seu ambiente local.
 
-## Expanding the ESLint configuration
+# Pré-requisitos
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+Certifique-se de ter o Node.js e o npm instalados em sua máquina.
 
-- Configure the top-level `parserOptions` property like this:
+-[Node.Js](https://nodejs.org/en)
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+-npm(normalmente instalado com o node.js) 
+
+# Instalação 
+
+Clone este repositório:
+
 ```
+git clone https://github.com/mauri2008/desafio-rede-ancora.git
+```
+Navegue até o diretório do projeto:
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+```
+cd desafio-rede-ancora
+```
+instale as dependências:
+```
+npm install
+```
+# Executando o Projeto
+
+Agora que as dependências estão instaladas, você pode iniciar o servidor de desenvolvimento
+
+```
+npm run dev
+```
+O servidor de desenvolvimento será iniciado e você poderá acessar o projeto em [http://localhost:5173](http://localhost:5173) em seu navegador
+
